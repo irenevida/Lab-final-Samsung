@@ -1,0 +1,48 @@
+File = open("index.html","w")
+content = ...
+<html>
+  <head>
+    <title>Create Account</title>
+    <meta charset="utf-8" />
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+  </head> 
+  <body>
+    <form class="form create" novalidate>
+            <h1>Crear Cuenta</h1>
+            <div class="name">
+                <label class="name">Nombre
+                    <br>
+                    <input id="name" type="text" name="name" value="" pattern="[a-zA-Z ]{2,30}" required/>
+                    <br>
+                </label>
+            </div>
+            <div class="email">
+                <label>Email
+                    <br>
+                    <input id="email" type="email" name="email" value="" required/>
+                    <br>
+                </label>
+            </div>
+            <div class="password">
+                <label>Clave
+                    <br>
+                    <input id="password" type="password" name="password" value="" minlength="8" required/>
+                    <br>
+                </label>
+            </div>
+            <div class="confirm">
+                <label>Confirme la contraseña
+                    <br>
+                    <input id="confirm" type="password" name="confirm" value=""  required/>
+                    <br>
+                </label>
+            </div>
+            <button class="submit" id="button" type="button" name="Enviar" value="" onclick="">ENVIAR</button>
+        </form>
+    </body>
+
+</html>
+file.close()
+
+                
