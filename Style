@@ -9,7 +9,7 @@ html {
 body {
   font-family: 'Neris Light';
   font-size: 16pt;
-  color:rgb(232, 155, 228);
+  color:rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   vertical-align: middle;
   display: table-cell;
