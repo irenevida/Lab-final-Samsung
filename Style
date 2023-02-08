@@ -1,3 +1,6 @@
+file = open("Style","W")
+content = '''
+
 html {
   height: 100%;
   display: table;
@@ -34,3 +37,4 @@ imagen_incorrecto {
   bottom:50%;
   left:50%;
 }
+file.close()
