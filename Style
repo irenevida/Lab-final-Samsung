@@ -1,0 +1,34 @@
+file = open("style","w")
+content = '''
+#editamos el cuerpo
+body {
+  font-family: 'Neris Light';
+  font-size: 16pt;
+  color:rgb(232, 155, 228);
+  background-color: rgb(0, 0, 0);
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+}
+form * {
+  box-sizing: border-box;
+}
+input {
+  font-size: 10pt;
+  width: 150pt;
+  border: 5pt;
+}
+botón_enviar {
+  font-size: 16pt;
+  width: 150pt;
+  border: 5pt;
+  color: green;
+}
+imagen_correcto {
+  bottom:50%;
+  left:50%;
+}
+imagen_incorrecto {
+  bottom:50%;
+  left:50%;
+}
