@@ -1,6 +1,11 @@
 file = open("style","w")
 content = '''
 #editamos el cuerpo
+html {
+  height: 100%;
+  display: table;
+  margin: auto;
+}
 body {
   font-family: 'Neris Light';
   font-size: 16pt;
